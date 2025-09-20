@@ -1,0 +1,6 @@
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.json linguist-language=JSON
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+node_modules/* linguist-vendored
