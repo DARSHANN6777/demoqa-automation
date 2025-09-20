@@ -1,0 +1,35 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="53.440858999999996">
+<testsuite name="bookstore.spec.ts" timestamp="2025-09-20T09:08:36.913Z" hostname="chromium" tests="2" failures="0" skipped="0" time="86.71" errors="0">
+<testcase name="DemoQA Book Store Application › Complete Book Store Test Flow" classname="bookstore.spec.ts" time="46.477">
+<system-out>
+<![CDATA[✓ Navigated to https://demoqa.com/
+✓ Navigated to Book Store Application
+✓ Logged in with username: Darshan
+✓ Login validation successful - username and logout button verified
+✓ Navigated to Book Store page
+✓ Searched for: Learning JavaScript Design Patterns
+✓ Search result validated - book found
+  Title: Learning JavaScript Design Patterns
+  Author: Addy Osmani
+  Publisher: O'Reilly Media
+✓ Book details written to file: C:\Users\N Darshan\Desktop\demoqa-automation\test-results\book_details.txt
+✓ Successfully logged out
+🎉 All test steps completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="DemoQA Book Store Application › Search Book Without Login" classname="bookstore.spec.ts" time="40.233">
+<system-out>
+<![CDATA[✓ Navigated to https://demoqa.com/
+✓ Navigated to Book Store Application
+✓ Searched for: Learning JavaScript Design Patterns
+✓ Search result validated - book found
+  Title: Learning JavaScript Design Patterns
+  Author: Addy Osmani
+  Publisher: O'Reilly Media
+✓ Book details written to file: C:\Users\N Darshan\Desktop\demoqa-automation\test-results\search_only_results.txt
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
